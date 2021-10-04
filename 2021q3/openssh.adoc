@@ -1,8 +1,8 @@
 == Base System OpenSSH update
 
-Links
-link: https://www.openssh.com/
-link: https://lists.freebsd.org/pipermail/freebsd-security/2021-September/010473.html
+Links: +
+link:https://www.openssh.com/[OpenSSH] URL: https://www.openssh.com/ +
+link:https://lists.freebsd.org/pipermail/freebsd-security/2021-September/010473.html[Mailing list posting] URL: https://lists.freebsd.org/pipermail/freebsd-security/2021-September/010473.html
 
 Contact: Ed Maste <emaste@freebsd.org>
 
@@ -24,8 +24,8 @@ update to OpenSSH version 8.8p1.
 
 NOTE: OpenSSH 8.8p1 will disable the ssh-rsa signature scheme by default,
 so some additional work is required for this next update.  For more information
-please see the "Important note for future FreeBSD base system OpenSSH update"
-mailing list
-post https://lists.freebsd.org/pipermail/freebsd-security/2021-September/010473.html
+please see the
+link:https://lists.freebsd.org/pipermail/freebsd-security/2021-September/010473.html[Important note for future FreeBSD base system OpenSSH update]
+mailing list post.
 
 Sponsor: The FreeBSD Foundation
