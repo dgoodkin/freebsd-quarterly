@@ -10,6 +10,11 @@ OpenSSH is a suite of remote login and file transfer servers and client
 tools.  OpenSSH in the base system has been updated from version 7.9p1 to
 8.7p1.
 
+We have a number of local bug fixes, configuration changes, and small features
+in our base system version of OpenSSH.  As part of the work for this update
+I submitted some of these upstream, and am preparing to do the same with the
+remaining ones.
+
 OpenSSH now supports FIDO/U2F devices, although additional work is required
 to enable this in the FreeBSD base system.  This includes importing a pair
 of dependencies: libcbor, and libfido2.
